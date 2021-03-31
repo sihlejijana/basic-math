@@ -13,33 +13,35 @@ class MultiplicationTest{
 
 
     private Multiplication multiple1;
-    private Multiplication multiple2;
 
 
 
 
     @BeforeEach
-    void setUp() {
-        multiple1 = new Multiplication();
-        multiple2 = new Multiplication();
+    public void setUp(){
+        this.multiple1 = new Multiplication();
 
     }
 
+
     @Test
     void testIdentity(){
-        assertSame(multiple1,multiple1);
+        int answer = multiple1.multiplication(4,2);
+        assertSame(answer,answer);
 
     }
 
     @Test
     void testEquality(){
-        assertEquals(multiple1, multiple1);
+        int answer = multiple1.multiplication(4,2);
+        assertEquals(answer, 8);
 
     }
 
     @Test
     void failTest(){
-        assertEquals(multiple1,multiple2);
+        int answer = multiple1.multiplication(4,2);
+        assertEquals(answer,20);
 
     }
 

@@ -7,6 +7,12 @@ public class Multiplication
     public int x, y, answer;
 
 
+    //testing method
+    public int multiplication (int x, int y){
+        return x * y;
+    }
+
+
 
     public void Multiply()
     {
