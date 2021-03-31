@@ -4,11 +4,9 @@ import java.util.*;
 public class Multiplication
 {
 
-
-
-
     //testing method
-    public int multiplication (int x, int y){
+    public int multiply (int x, int y)
+    {
         return x * y;
     }
 

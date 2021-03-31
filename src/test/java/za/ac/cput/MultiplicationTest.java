@@ -25,7 +25,7 @@ class MultiplicationTest{
     //Testing object identity
     @Test
     void testIdentity(){
-        int answer = multiple1.multiplication(4,2);
+        int answer = multiple1.multiply(4,2);
         assertSame(answer,answer);
 
     }
@@ -33,7 +33,7 @@ class MultiplicationTest{
     //Testing object Equality
     @Test
     void testEquality(){
-        int answer = multiple1.multiplication(4,2);
+        int answer = multiple1.multiply(4,2);
         assertEquals(answer, 8);
 
     }
@@ -42,7 +42,7 @@ class MultiplicationTest{
     //Disables a Test
     @Disabled
     void disabledTest(){
-        int answer = multiple1.multiplication(5,3);
+        int answer = multiple1.multiply(5,3);
         assertEquals(answer,15);
     }
 
@@ -50,7 +50,7 @@ class MultiplicationTest{
     //Deliberately fails a test
     @Test
     void failTest(){
-        int answer = multiple1.multiplication(4,2);
+        int answer = multiple1.multiply(4,2);
         assertEquals(answer,20);
 
     }
@@ -61,7 +61,7 @@ class MultiplicationTest{
     @Test
     @Timeout(3)
     void testTimeout(){
-        int answer = multiple1.multiplication(4,2);
+        int answer = multiple1.multiply(4,2);
         assertEquals(answer, 8);
 
     }
