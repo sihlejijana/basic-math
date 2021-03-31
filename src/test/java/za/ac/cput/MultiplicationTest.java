@@ -58,8 +58,8 @@ class MultiplicationTest{
 
 
     //Timeout where execution cannot exceed 3 seconds
-    @Test
     @Timeout(3)
+    @Test
     void testTimeout(){
         int answer = multiple1.multiply(4,2);
         assertEquals(answer, 8);
