@@ -10,7 +10,7 @@ class MultiplicationTest{
 
 
     private Multiplication multiple1;
-    private Multiplication multiplyTest = new Multiplication();
+
 
 
 
