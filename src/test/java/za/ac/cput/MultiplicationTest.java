@@ -12,34 +12,34 @@ class MultiplicationTest{
 
 
 
-    private Multiplication number1;
-    private Multiplication number2;
+    private Multiplication multiple1;
+    private Multiplication multiple2;
 
 
 
 
     @BeforeEach
     void setUp() {
-        number1 = new Multiplication();
-        number2 = new Multiplication();
+        multiple1 = new Multiplication();
+        multiple2 = new Multiplication();
 
     }
 
     @Test
     void testIdentity(){
-        assertSame(number1,number1);
+        assertSame(multiple1,multiple1);
 
     }
 
     @Test
     void testEquality(){
-        assertEquals(number1, number1);
+        assertEquals(multiple1, multiple1);
 
     }
 
     @Test
     void failTest(){
-        assertEquals(number1,number2);
+        assertEquals(multiple1,multiple2);
 
     }
 
