@@ -1,3 +1,9 @@
+/**
+* Author: Justin Jenecke 215163052
+* Details: POJO for maximum function
+* Date: 01/04/2021
+*/
+
 package za.ac.cput;
 
 public class Maximum {
