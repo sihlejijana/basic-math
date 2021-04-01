@@ -13,11 +13,14 @@ class SubtractionTest {
 
    private Subtraction sub;
 
+    public int num;
+    public int num2;
 
 
     @BeforeEach
     void setUp() {
         sub = new Subtraction();
+        num = num2;
 
     }
 
@@ -28,6 +31,7 @@ class SubtractionTest {
     @Test
     void testIdentity(){
 
+        assertSame(num,num2);
 
     }
     @Test

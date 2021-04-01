@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a91eb5-3d30-428e-a880-50476054054d" name="Default Changelist" comment="before identity test">
+    <list default="true" id="d7a91eb5-3d30-428e-a880-50476054054d" name="Default Changelist" comment="all tests done bare identity test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/Subtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/SubtractionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <recent name="za.ac.cput" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubtractionTest">
+  <component name="RunManager" selected="JUnit.SubtractionTest.testIdentity">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubtractionTest.testIdentity" />
         <item itemvalue="JUnit.SubtractionTest" />
         <item itemvalue="JUnit.SubtractionTest.testEquality" />
         <item itemvalue="JUnit.SubtractionTest.timeoutNotExceeded" />
         <item itemvalue="JUnit.SubtractionTest.FailingTest" />
-        <item itemvalue="JUnit.SubtractionTest.testIdentity" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1616959836818" duration="1583000" />
       <workItem from="1617108390722" duration="1293000" />
       <workItem from="1617109748944" duration="694000" />
-      <workItem from="1617123121153" duration="12389000" />
+      <workItem from="1617123121153" duration="13364000" />
     </task>
     <task id="LOCAL-00001" summary="commiting the subtraction code(excl tdd)">
       <created>1617108818218</created>
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617138509717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all tests done bare identity test">
+      <created>1617289379643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617289379643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="commiting the subtraction code(excl tdd)" />
     <MESSAGE value="committing the subtraction code(excl tdd)" />
     <MESSAGE value="before identity test" />
-    <option name="LAST_COMMIT_MESSAGE" value="before identity test" />
+    <MESSAGE value="all tests done bare identity test" />
+    <option name="LAST_COMMIT_MESSAGE" value="all tests done bare identity test" />
   </component>
 </project>
