@@ -10,7 +10,9 @@ package za.ac.cput;
  */
 public class TestMark 
 {
+    public static void main(String args[])
      {
+
         float mean;
         int sum , i;
         int n = 5;
