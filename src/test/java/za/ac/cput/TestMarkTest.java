@@ -1,15 +1,17 @@
 package za.ac.cput;
 
+/**
+ * Author
+ *  * Name:Themba Khanyile
+ *  * StudentNumber:217238173
+ *  *
+ */
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Timeout;
-import static java.time.Duration.ofMinutes;
-import static java.time.Duration.ofMillis;
-import org.junit.jupiter.api.BeforeEach;
 
-
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,17 +20,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TestMarkTest {
 
-private int Mark1;
-private int Mark2;
-private int Mark3;
+private TestMark Mark1;
+private TestMark Mark2;
+private TestMark Mark3;
 
 
 @BeforeEach
     void setUp()
     {
-      Mark1 = 50;
-      Mark2 = 75;
-      Mark3 = 50;
+        
+      Mark1 = new TestMark();
+      Mark2 = new TestMark();
+      Mark3 = new TestMark();
       Mark1 = Mark3;
     }
 
