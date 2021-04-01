@@ -7,7 +7,7 @@ package za.ac.cput;
  * Multiplication Class
  */
 
-import java.util.*;
+
 public class Multiplication
 {
 
@@ -20,27 +20,6 @@ public class Multiplication
 
 
 
-
-    //Actual calculation method for end users
-    /**
-    public void Multiply()
-    {
-        Scanner input = new Scanner(System.in);
-        int x, y, answer;
-
-        System.out.println("Please input the first number you would like to multiply: ");
-        x = input.nextInt();
-
-        System.out.println("Please input the second number you would like to multiply: ");
-        y = input.nextInt();
-
-        answer = x * y;
-        System.out.println("The answer is " + answer);
-
-
-    }
-     //Code Not needed
-     */
 
 
 
