@@ -45,8 +45,9 @@ class MultiplicationTest{
     }
 
 
-    //Disables a Test
+    //Disables a Test, resulting in it being skipped while testing.
     @Disabled
+    @Test
     void disabledTest(){
         int answer = multiple1.multiply(5,3);
         assertEquals(answer,34);
