@@ -40,7 +40,7 @@ class MultiplicationTest{
     @Test
     void testEquality(){
         int answer = multiple1.multiply(4,2);
-        assertEquals(answer, 8);
+        assertEquals(8, answer);
 
     }
 
@@ -50,7 +50,7 @@ class MultiplicationTest{
     @Test
     void disabledTest(){
         int answer = multiple1.multiply(5,3);
-        assertEquals(answer,34);
+        assertEquals(34,answer);
     }
 
 
@@ -58,7 +58,7 @@ class MultiplicationTest{
     @Test
     void failTest(){
         int answer = multiple1.multiply(4,2);
-        assertEquals(answer,20);
+        assertEquals(20,answer);
 
     }
 
@@ -69,7 +69,7 @@ class MultiplicationTest{
     @Test
     void testTimeout(){
         int answer = multiple1.multiply(4,2);
-        assertEquals(answer, 8);
+        assertEquals(8, answer);
 
     }
 
