@@ -3,6 +3,8 @@ package za.ac.cput;
 /**
  * Author KM Karelse (219000859)
  * Date: 01/04/2021
+ *
+ * This tests multiplications
  */
 
 import org.junit.jupiter.api.*;

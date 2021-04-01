@@ -3,6 +3,8 @@ package za.ac.cput;
 /**
  * Author KM Karelse (219000859)
  * Date: 01/04/2021
+ *
+ * Multiplication Class
  */
 
 import java.util.*;
