@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Timeout;
 import static java.time.Duration.ofMinutes;
 import static java.time.Duration.ofMillis;
 import org.junit.jupiter.api.BeforeEach;
+
+import java.time.Duration;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @Disabled("Do not run Environment Below")
@@ -40,16 +43,19 @@ assertEquals(Mark1, Mark2);
     void timeoutNotExceeded()
     {
         //asserTimeout passes
-        assertTimeout(ofMinutes(1), () ->){
+        assertTimeout(ofMinutes(1), () ->{
 
     });
     }
+
+
 
     @Test
     void timeoutExceeds()
     {
         //asserTimeot fails
-        assertTimeout(ofMillis(5), () ->){
+        assertTimeout(ofMillis(5), () ->
+        {
 
             Thread.sleep(100);
 
