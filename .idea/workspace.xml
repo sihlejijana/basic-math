@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a91eb5-3d30-428e-a880-50476054054d" name="Default Changelist" comment="commiting the subtraction code(excl tdd)">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-math.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/SubtractionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/Subtraction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/App.java" afterDir="false" />
+    <list default="true" id="d7a91eb5-3d30-428e-a880-50476054054d" name="Default Changelist" comment="before identity test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/SubtractionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +55,7 @@
       <recent name="za.ac.cput" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubtractionTest.testIdentity">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.App" />
-      <module name="basic-math" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.ac.cput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SubtractionTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +65,21 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basic-math" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.SubtractionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,12 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubtractionTest.timeoutNotExceeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basic-math" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.SubtractionTest" />
+      <option name="METHOD_NAME" value="timeoutNotExceeded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubtractionTest.testIdentity" />
-        <item itemvalue="JUnit.SubtractionTest.FailingTest" />
+        <item itemvalue="JUnit.SubtractionTest" />
         <item itemvalue="JUnit.SubtractionTest.testEquality" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.SubtractionTest.timeoutNotExceeded" />
+        <item itemvalue="JUnit.SubtractionTest.FailingTest" />
+        <item itemvalue="JUnit.SubtractionTest.testIdentity" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +169,7 @@
       <workItem from="1616959836818" duration="1583000" />
       <workItem from="1617108390722" duration="1293000" />
       <workItem from="1617109748944" duration="694000" />
-      <workItem from="1617123121153" duration="7326000" />
+      <workItem from="1617123121153" duration="12389000" />
     </task>
     <task id="LOCAL-00001" summary="commiting the subtraction code(excl tdd)">
       <created>1617108818218</created>
@@ -181,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617108818219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before identity test">
+      <created>1617138509717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617138509717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commiting the subtraction code(excl tdd)" />
     <MESSAGE value="committing the subtraction code(excl tdd)" />
-    <option name="LAST_COMMIT_MESSAGE" value="committing the subtraction code(excl tdd)" />
+    <MESSAGE value="before identity test" />
+    <option name="LAST_COMMIT_MESSAGE" value="before identity test" />
   </component>
 </project>
