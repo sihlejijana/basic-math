@@ -1,5 +1,10 @@
 package za.ac.cput;
 
+/**
+ * Author KM Karelse (219000859)
+ * Date: 01/04/2021
+ */
+
 import java.util.*;
 public class Multiplication
 {
@@ -14,6 +19,7 @@ public class Multiplication
 
 
     //Actual calculation method for end users
+    /**
     public void Multiply()
     {
         Scanner input = new Scanner(System.in);
@@ -30,6 +36,8 @@ public class Multiplication
 
 
     }
+     //Code Not needed
+     */
 
 
 

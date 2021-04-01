@@ -1,5 +1,9 @@
 package za.ac.cput;
 
+/**
+ * Author KM Karelse (219000859)
+ * Date: 01/04/2021
+ */
 
 import org.junit.jupiter.api.*;
 
@@ -43,7 +47,7 @@ class MultiplicationTest{
     @Disabled
     void disabledTest(){
         int answer = multiple1.multiply(5,3);
-        assertEquals(answer,15);
+        assertEquals(answer,34);
     }
 
 
