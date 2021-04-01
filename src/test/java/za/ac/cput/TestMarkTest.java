@@ -15,28 +15,34 @@ import static org.junit.jupiter.api.Assertions.*;
 @Disabled("Do not run Environment Below")
 class TestMarkTest {
 
-private TestMark Mark1;
-private TestMark Mark2;
-private TestMark Mark3;
+private int Mark1;
+private int Mark2;
+private int Mark3;
 
     @BeforeEach
     void setUp()
     {
-Mark1 = new TestMark();
-Mark2 = new TestMark();
+Mark1 = 50;
+Mark2 = 75;
+Mark3 = 50;
 Mark1 = Mark3;
     }
 
     @Test
     void testIdentity()
+
     {
-assertSame(Mark1 , Mark2);
+     assertSame(Mark1 , Mark2);
+     assertNotSame(Mark1 ,Mark3);
     }
+
+
 
     @Test
     void testEquality()
     {
-assertEquals(Mark1, Mark2);
+    assertEquals(Mark1, Mark2);
+    assertNotEquals(Mark2,Mark2);
     }
 
     @Test
